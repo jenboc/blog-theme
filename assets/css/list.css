@@ -1,0 +1,40 @@
+.post-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-info {
+    display: flex;
+    gap: 3ch;
+    border-bottom: dashed var(--dark-gray);
+    text-align: center;
+
+    padding: 1ch;
+}
+
+.post-list :first-child.post-info {
+    border-top: dashed var(--dark-gray);
+}
+
+.post-link {
+    padding-right: 4ch;
+    border-right: solid var(--dark-gray);
+}
+
+.post-link h2 {
+    margin: 0;
+}
+
+.post-link a {
+    text-decoration: none;
+    color: var(--orange);
+}
+
+.post-link a:visited {
+    color: var(--dark-orange);
+}
+
+.post-link a:hover {
+    text-decoration: underline;
+    color: var(--dark-gray);
+}

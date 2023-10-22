@@ -1,0 +1,11 @@
+.post-details {
+    margin-bottom: 2ch;
+}
+
+.post-details h1 {
+    margin-bottom: 0;
+}
+
+.post-details time {
+    font-weight: bold;
+}
