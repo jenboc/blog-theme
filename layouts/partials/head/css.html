@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
     {{- with . | minify | fingerprint }}
-      <link rel="stylesheet" href=".{{ .RelPermalink }}">
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{- end }}
   {{- end }}
 {{- end }}
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
     {{- with . | minify | fingerprint }}
-      <link rel="stylesheet" href=".{{ .RelPermalink }}">
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{- end }}
   {{- end }}
 {{- end }}
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{- else }}
     {{- with . | minify | fingerprint }}
-      <link rel="stylesheet" href=".{{ .RelPermalink }}">
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{- end }}
   {{- end }}
 {{- end }}
