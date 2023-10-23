@@ -1,6 +1,7 @@
 baseURL = 'https://jensoncain.co.uk/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+summarylength = 10
 
 [[menus.main]]
 name = 'Home'
